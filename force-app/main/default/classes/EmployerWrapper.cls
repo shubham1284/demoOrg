@@ -56,7 +56,7 @@ public with sharing class EmployerWrapper {
     // Wrapper class to hold broker-related financial and contact info
     public class BrokerInfo {
         @AuraEnabled public String signer;
-         @AuraEnabled public String signer1;
+         @AuraEnabled public String  oppSigner;
         @AuraEnabled public Double brokerComp;           // Broker compensation
         @AuraEnabled public Double modeledBrokerComp;    // Modeled value of broker compensation
         @AuraEnabled public String topBrokerName;
