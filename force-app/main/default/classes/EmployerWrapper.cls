@@ -18,7 +18,7 @@ Ver   Date         Author               Modification
 public with sharing class EmployerWrapper {
 
     // Top-level wrapper fields exposed to Lightning or external calls
-    @AuraEnabled public String employerName;
+    @AuraEnabled public String employerNameId;
     @AuraEnabled public String industry;
     @AuraEnabled public ContactInfo contactInfo;
     @AuraEnabled public PlanInfo planInfo;
